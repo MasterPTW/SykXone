@@ -1,4 +1,4 @@
-﻿local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 local Window = Rayfield:CreateWindow({
    Name = "Scripts In One Menu",
    Icon = 0, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
@@ -77,20 +77,20 @@ local Button = Tab:CreateButton({
 local Tab = Window:CreateTab("Mutiple Games", 4483362458) -- Title, Image
 local Label = Tab:CreateLabel("Blox Fruits, Muscle Legends, PS99, TSB, Fisch, Pet GO, Dead Rails, Drill Digging Sim, Arise Crossover", 4483362458, Color3.fromRGB(255, 255, 255), false) -- Title, Icon, Color, IgnoreTheme
 local Button = Tab:CreateButton({
-   Name = "Button Example",
+   Name = "Speed-Hub-X",
    Callback = function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()-- The function that takes place when the button is pressed
    end,
 })
 local Tab = Window:CreateTab("Manual Panic Button", 4483362458) -- Title, Image
 local Button = Tab:CreateButton({
-   Name = "Button Example",
+   Name = "Panic Button",
    Callback = function()
    Rayfield:Destroy()-- The function that takes place when the button is pressed
    end,
 })
 local Keybind = Tab:CreateKeybind({
-   Name = "Keybind Example",
+   Name = "Panic Button Keybind",
    CurrentKeybind = "RightBracket",
    HoldToInteract = false,
    Flag = "Keybind1", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
